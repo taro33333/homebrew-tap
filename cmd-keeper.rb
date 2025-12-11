@@ -1,13 +1,13 @@
 class CmdKeeper < Formula
   desc "A CLI tool to save, manage, and search frequently used commands"
   homepage "https://github.com/taro33333/cmd-keeper"
-  version "1.1.0"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/taro33333/cmd-keeper/releases/download/v1.1.0/cmd-keeper-darwin-arm64"
-      sha256 "0b460e45b13c937b441dc99b7c5696f18ca242dcb6dd5ae74b6ab4b11d3ea344"
+      url "https://github.com/taro33333/cmd-keeper/releases/download/v1.2.0/cmd-keeper-darwin-arm64"
+      sha256 "2b7334583c18876f695cbd4c3ea0230af6ee2ab877346179fcafe404ad037e1c"
 
       def install
         bin.install "cmd-keeper-darwin-arm64" => "cmd-keeper"
@@ -15,8 +15,8 @@ class CmdKeeper < Formula
     end
 
     on_intel do
-      url "https://github.com/taro33333/cmd-keeper/releases/download/v1.1.0/cmd-keeper-darwin-amd64"
-      sha256 "d34830818c0c9ce96b0f3507d5060f1d37416353b06f1424023bfa87d741fcd1"
+      url "https://github.com/taro33333/cmd-keeper/releases/download/v1.2.0/cmd-keeper-darwin-amd64"
+      sha256 "806a1108b3c7b030f36e07e5a2d8d50ac3a234bb6083d1da51f446e08709ad84"
 
       def install
         bin.install "cmd-keeper-darwin-amd64" => "cmd-keeper"
@@ -26,8 +26,8 @@ class CmdKeeper < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/taro33333/cmd-keeper/releases/download/v1.1.0/cmd-keeper-linux-amd64"
-      sha256 "5da8a9f1fe3df6244052c9f399d4626855004bfb88c64daa79d01deddd33176f"
+      url "https://github.com/taro33333/cmd-keeper/releases/download/v1.2.0/cmd-keeper-linux-amd64"
+      sha256 "7796cd0cb1b89cad1d91c11ff2e31f143299d3eb83afbafb8c9654642d8b0474"
 
       def install
         bin.install "cmd-keeper-linux-amd64" => "cmd-keeper"
