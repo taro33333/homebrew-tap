@@ -3,7 +3,7 @@ cask "goreload" do
   name "goreload"
   desc "Hot reload tool for Go applications"
   homepage "https://github.com/taro33333/goreload"
-  version "0.1.1"
+  version "0.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "goreload" do
   on_macos do
     on_intel do
       url "https://github.com/taro33333/goreload/releases/download/v#{version}/goreload_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "d049a4f61d44ea48e196c2b1236d49852d0c318150ebc9d0c7ff3777a8cd958a"
+      sha256 "a24d4ff9d40c8b72db171f68efc99c4661936bfc1b06b1d098d20377874f9498"
     end
     on_arm do
       url "https://github.com/taro33333/goreload/releases/download/v#{version}/goreload_#{version}_Darwin_arm64.tar.gz"
-      sha256 "f2a84f6656418ef91cb97eb1f3b35c1bcd08fb8497ed21a11ed1437dde3e63c3"
+      sha256 "4493d7e5a627a8ed46b4f3f3a09c68e11e6ce0b156a39514bb6c5cf828093b78"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/taro33333/goreload/releases/download/v#{version}/goreload_#{version}_Linux_x86_64.tar.gz"
-      sha256 "72954419428454ff37b73b32b0542ddedb1e210600de067533bae5d83162a474"
+      sha256 "f2e5f897721c77ccb7cf1be5028251778e4ef5b3a7df89740a68f11102740c08"
     end
     on_arm do
       url "https://github.com/taro33333/goreload/releases/download/v#{version}/goreload_#{version}_Linux_arm64.tar.gz"
-      sha256 "27e0445c2e2503cb30ed483b091623ea407cc2f13ef05d9db1ae970d4047cd53"
+      sha256 "e471a6047f3e9a230bf4464bc1e1215e6cba4b99f3cc80ffaeecfe9a248747b4"
     end
   end
 
